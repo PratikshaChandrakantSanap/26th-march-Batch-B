@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG_keywords.TestNGgroup"/>
+      <class name="TestNG_keywords.Enable_keyword"/>
+      <class name="TestNG_keywords.priorityKeyword"/>
+      <class name="TestNG_keywords.DependsOnMethodUse"/>
+      <class name="TestNG_keywords.TimeOut"/>
+      <class name="TestNG_keywords.invocationcountKeyword"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
