@@ -20,6 +20,7 @@ public class ExplicitWait {
 		WebElement courses = driver.findElement(By.xpath("(//a[text()='Courses'][1])"));
 		wait.until(ExpectedConditions.visibilityOf(courses));
 		courses.click();
+		System.out.println("hi i am writing this line to check modified code in gethub");
 	}
 
 }
